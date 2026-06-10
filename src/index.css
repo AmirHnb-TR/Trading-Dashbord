@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nano-dark: #0f1115;
+  --color-nano-card: #1c1e26;
+  --color-nano-border: #2b2d35;
+  --color-nano-primary: #eab308;
+  --color-nano-green: #22c55e;
+  --color-nano-red: #ef4444;
+  --color-nano-text: #9ca3af;
+  --color-nano-text-bright: #f3f4f6;
+}
+
+body {
+  background-color: var(--color-nano-dark);
+  color: var(--color-nano-text);
+}
